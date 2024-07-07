@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/zakat"
+            android:icon="@drawable/jakat"
+            android:title="যাকাত নিসাব কি?" />
+        <item
+            android:id="@+id/nisab"
+            android:icon="@drawable/zakatamount"
+            android:title="যাকাত নিসাবের পরিমাণ সম্পদ" />
+        <item
+            android:id="@+id/details"
+            android:icon="@drawable/info"
+            android:title="Developer Details" />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/send"
+                android:title="Send" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/exit"
+                android:title="Exit" />
+        </menu>
+    </item>
+</menu>

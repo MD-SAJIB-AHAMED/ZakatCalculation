@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout        	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="#00BCD4"
+    android:padding="10dp"
+     >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="যাকাত হিসাব করুন"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="দয়া করে ১ ভরি (তোলা) রূপার মূল্য লিখুন। নিসাব হিসাব করার জন্য এটি ব্যবহৃত হবে। নিসাব হিসাব ব্যতীত আপনার যাকাত হিসাব করা সম্ভব না।"
+        android:textSize="18sp"
+        android:textColor="#FFEB3B"
+        />
+    <EditText
+        android:id="@+id/nisab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন*"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="==================================="
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"
+        android:textColor="#FFEB3B"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="যে সকল সম্পদের উপর যাকাত ফরয"
+                android:textColor="#FFEB3B"
+                android:textSize="22sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="স্বর্ণ (ব্যবহৃত অলংকার হোক বা ব্যবসার পণ্য, অলংকার, বার বা গিনি কয়েন যে আকারেই থাকুক সব প্রকারের স্বর্ণ হিসাবযোগ্য)"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="রূপা (ব্যবহৃত অলংকার হোক বা ব্যবসার পণ্য এবং অলংকার বা অন্য যে আকারেই থাকুক সব প্রকারের রূপা হিসাবযোগ্য)"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="নগদ টাকা"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="কারো কাছে গচ্ছিত আমানত"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="অন্যের কাছে পাওনা টাকা (যা পাওয়া নিশ্চিত বা পাওয়ার আশা রয়েছে)"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="সিকিউরিটি মানি (যা সম্পূর্ণ ফেরতযোগ্য; অ্যাডভান্স হিসেবে প্রদত্ত অফেরতযোগ্য অগ্রীম ভাড়া নয়)"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/six"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" বৈদেশিক মুদ্রা (বর্তমান এক্সচেঞ্জ রেট)"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/seven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ব্যাংক একাউন্টে জমাকৃত অর্থ (কারেন্ট ও সেভিংস অ্যাকাউন্ট, ফিক্সড ডিপোজিট, ডিপিএস, এফডিআর ইত্যাদি যাবতীয় অ্যাকাউন্টে জমা অর্থ) [অতিরিক্ত ইন্টারেস্ট পুরোটাই সদকা করা জরুরী]"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/eight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="স্যালারি অ্যাকাউন্ট (সাধারণ মাসিক খরচের অতিরিক্ত জমা থাকলে সে টাকা)"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/nine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ব্যাংক গ্যারান্টি মানি (নিজের জমাকৃত ব্যালেন্স) [অতিরিক্ত ইন্টারেস্ট পুরোটাই সদকা করা জরুরী]"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/ten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বীমায় জমাকৃত প্রিমিয়াম [অতিরিক্ত ইন্টারেস্ট পুরোটাই সদকা করা জরুরী]"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/eleven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বন্ড, ট্র্যাজারি বিল, সঞ্চয়পত্র (ক্রয় মূল্য) [অতিরিক্ত পুরোটাই সদকা করা জরুরী]"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/twelve"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="প্রভিডেন্ট ফান্ড (যদি ঐচ্ছিক হয়; বাধ্যতামূলকভাবে কেটে রাখা অংশের যাকাত হস্তগত হওয়ার পর)"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/thirteen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="কোম্পানির শেয়ার: কোম্পানি থেকে ডিভিডেন্ড পাওয়ার উদ্দেশ্যে ক্রয়কৃত (ব্যালেন্সশিট দেখে নিজের অংশে বিদ্যমান যাকাতযোগ্য সম্পদ)"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/fourteen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="কোম্পানির শেয়ার: ক্যাপিটাল গেইন তথা সেকেন্ডারি মার্কেটে ব্যবসার উদ্দেশ্যে ক্রয়কৃত (বর্তমান মার্কেট ভ্যালু)"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/fifteen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="সমিতিতে সঞ্চিত নগদ অর্থ (নিজের জমাকৃত ব্যালেন্স)"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/sixteen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ব্যবসায় বিনিয়োগকৃত অর্থ (নিজের অংশে বিদ্যমান যাকাতযোগ্য সম্পদ)"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/seventeen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" বিক্রিত পণ্যের বকেয়া মূল্য (যা পাওয়া নিশ্চিত বা পাওয়ার আশা রয়েছে)"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/eighteen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="বাড়ি ভাড়া, গাড়ি ভাড়া ইত্যাদি বিবিধ উৎস থেকে অর্জিত আয়ের সঞ্চিত অর্থ"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/nineteen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ব্যবসার উদ্দেশ্যে ক্রয়কৃত জমি, প্লট-এর বর্তমান বিক্রয় মূল্য (যা কেনাই হয়েছে বিক্রির নিয়তে)"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/twenty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ব্যবসার জন্য ক্রয়কৃত ফ্ল্যাট, বাড়ি-এর বর্তমান বিক্রয় মূল্য (যা কেনাই হয়েছে বিক্রির নিয়তে; ভাড়ায় প্রদত্ত ফ্ল্যাট বা বাড়ি নয়)"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/twentyOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ব্যবসার গাড়ির বর্তমান বিক্রয় মূল্য (যা কেনাই হয়েছে বিক্রির নিয়তে; ভাড়ায় চালিত গাড়ি নয়)"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/twentyTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="কোম্পানির বিক্রয়যোগ্য ব্যবসায়িক পণ্যের বর্তমান বিক্রয় মূল্য"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/twentyThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="সকল ব্যবসার বিক্রয়যোগ্য পণ্যের বর্তমান বিক্রয় মূল্য"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/twentyFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ব্যবসায়িক পণ্য তৈরির মজুদ কাঁচা মালের বর্তমান বিক্রয় মূল্য"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+
+            <EditText
+                android:id="@+id/twentyFive"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:gravity="center"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:inputType="numberDecimal"
+                android:textColor="@color/black" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ব্যবসার জন্য ক্রয়কৃত পশু-প্ৰাণীর বর্তমান বিক্রয় মূল্য (গরু, ছাগল, মাছ, মুরগি ইত্যাদি)"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/twentySix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="যাকাতের সম্পদ থেকে বিয়োগযোগ্য ঋণ"
+                android:textColor="#FFEB3B"
+                android:textSize="22sp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="সাংসারিক প্রয়োজনে গৃহীত ঋণ"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/twentySeven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ব্যক্তিগত পর্যায়ের সকল ঋণ"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/twentyEight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="এমন ব্যবসার সকল ঋণ যার উপর নিজের ও সংসারের খরচ নির্ভরশীল"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/twentyNine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="পূর্বের বকেয়া বাড়ি ভাড়া, ইউটিলিটি বিল, ট্যাক্স"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/thirty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="যাকাত-বর্ষের ভেতরের বকেয়া কর্মচারি বেতন-ভাতা"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/thirtyOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ব্যবসায়িক লেনদেনের ঋণ (পণ্য ক্রয় বা ভাড়া বাবত কোন ব্যক্তি বা প্রতিষ্ঠান যা পাবে)"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/thirtyTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ডেভেলপমেন্ট ঋণের যে অংশ যাকাতযোগ্য সম্পদ ক্রয়ের পেছনে ব্যয় হয়েছে"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/thirtyThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ইনস্টলমেন্টের ভিত্তিতে কিস্তিতে প্রদেয় মেয়াদী ঋণের যতটুকু এক বছরে পরিশোধ করতে হবে"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/thirtyFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="স্ত্রীর মহর (যদি তা এই যাকাত বর্ষে আদায়ের নিয়ত করে; নতুবা নয়)"
+                android:textColor="@color/black"
+                android:background="@color/white"
+                />
+            <EditText
+                android:id="@+id/thirtyFive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="সমপরিমান মুল্য লিখুন"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:inputType="numberDecimal"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                >
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/clear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="মুছে ফেলুন"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black"
+
+                    />
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="হিসাব করুন"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/black"
+
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+   </LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/activity_main_drawer"
+        app:headerLayout="@layout/header_layout" >
+
+    </com.google.android.material.navigation.NavigationView>
+
+</androidx.drawerlayout.widget.DrawerLayout>
