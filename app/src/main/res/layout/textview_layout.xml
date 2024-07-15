@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="যে সকল সম্পদের উপর যাকাত ফরয"
+        android:textColor="#4CAF50"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ক্যাশ এমাউন্ট"
+        android:textColor="#4CAF50"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ক্যাশ টাকা"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ব্যাংক একাউন্টে ক্যাশ টাকা"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="স্বর্ণের সমতুল্য টাকার পরিমান"
+        android:textColor="#4CAF50"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="স্বর্ণ"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="রুপা"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="বিনিয়োগের পরিমান"
+        android:textColor="#4CAF50"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="শেয়ার বাজার"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="অন্যান্য বাজার"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="সম্পত্তি"
+        android:textColor="#4CAF50"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="বাসা ভাড়া থেকে প্রাপ্ত আয় "
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="অন্যান্য সম্পত্তি"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ব্যবসা থেকে আয়ের পরিমান"
+        android:textColor="#4CAF50"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ব্যবসায় জমাকৃত আয়"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ব্যবসায় জমাকৃত পন্য"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="অন্যান্য"
+        android:textColor="#4CAF50"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="পেনশন থেকে প্রাপ্ত আয় "
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="যে ঋণের টাকা আপনি ফেরত পাবেন "
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="অন্যান্য মূলধন"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="কৃষিকাজ"
+        android:textColor="#4CAF50"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="কৃষিকাজ থেকে প্রাপ্ত আয়ের পরিমান"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="বিয়োগ যোগ্য সম্পদ"
+        android:textColor="#F44336"
+        android:textSize="18sp"
+        android:layout_marginTop="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="দায়"
+        android:textColor="#F44336"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ক্রেডিট কার্ডের ঋণের পরিমান"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="গাড়ির ঋণের পরিমান"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ব্যবসার জন্য ঋণের পরিমান"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="পারিবারিক ঋণের পরিমান"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="অন্যান্য ঋণ"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:padding="10dp"
+        />
+
+
+</LinearLayout>

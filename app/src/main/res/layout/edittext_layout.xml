@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        android:layout_marginTop="130dp"
+        />
+
+    <EditText
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/three"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        android:layout_marginTop="65dp"
+        />
+
+    <EditText
+        android:id="@+id/six"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        />
+
+
+    <EditText
+        android:id="@+id/seven"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        android:layout_marginTop="70dp"
+        />
+
+    <EditText
+        android:id="@+id/eight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/nine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <EditText
+        android:id="@+id/ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        />
+
+
+    <EditText
+        android:id="@+id/eleven"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        android:layout_marginTop="65dp"
+        />
+
+    <EditText
+        android:id="@+id/twelve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/thirteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/fourteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        android:layout_marginTop="90dp"
+        />
+    <EditText
+        android:id="@+id/fifteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        android:layout_marginTop="125dp"
+        />
+    <EditText
+        android:id="@+id/sixteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:id="@+id/seventeen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/eightteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        />
+    <EditText
+        android:id="@+id/nineteen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="সমপরিমান মুল্য লিখুন"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:inputType="numberDecimal"
+        android:drawableStart="@drawable/taka"
+        android:background="@drawable/circle_transparent"
+        android:padding="10dp"
+        />
+
+
+</LinearLayout>

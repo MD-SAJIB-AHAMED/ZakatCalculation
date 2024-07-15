@@ -32,8 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     EditText nisab,one,two,three,four,five,six,seven,eight,nine,ten,eleven,twelve,thirteen,fourteen,fifteen,sixteen,seventeen,eightteen,
-              nineteen,twenty,twentyOne,twentyTwo,twentyThree,twentyFour,twentyFive,twentySix,twentySeven,twentyEight,twentyNine,thirty,
-              thirtyOne,thirtyTwo,thirtyThree,thirtyFour,thirtyFive;
+              nineteen;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -106,24 +105,9 @@ public class MainActivity extends AppCompatActivity {
         fifteen = findViewById(R.id.fifteen);
         sixteen = findViewById(R.id.sixteen);
         seventeen = findViewById(R.id.seventeen);
-        eightteen = findViewById(R.id.eighteen);
+        eightteen = findViewById(R.id.eightteen);
         nineteen = findViewById(R.id.nineteen);
-        twenty = findViewById(R.id.twenty);
-        twentyOne = findViewById(R.id.twentyOne);
-        twentyTwo = findViewById(R.id.twentyTwo);
-        twentyThree = findViewById(R.id.twentyThree);
-        twentyFour = findViewById(R.id.twentyFour);
-        twentyFive = findViewById(R.id.twentyFive);
-        twentySix = findViewById(R.id.twentySix);
-        twentySeven = findViewById(R.id.twentySeven);
-        twentyEight = findViewById(R.id.twentyEight);
-        twentyNine = findViewById(R.id.twentyNine);
-        thirty = findViewById(R.id.thirty);
-        thirtyOne = findViewById(R.id.thirtyOne);
-        thirtyTwo = findViewById(R.id.thirtyTwo);
-        thirtyThree = findViewById(R.id.thirtyThree);
-        thirtyFour = findViewById(R.id.thirtyFour);
-        thirtyFive = findViewById(R.id.thirtyFive);
+
 
 
 
@@ -155,26 +139,6 @@ public class MainActivity extends AppCompatActivity {
                 String seventeen_Value = seventeen.getText().toString().trim();
                 String eighteen_Value = eightteen.getText().toString().trim();
                 String ninteen_Value = nineteen.getText().toString().trim();
-                String twenty_Value = twenty.getText().toString().trim();
-                String twentyone_Value = twentyOne.getText().toString().trim();
-                String twentytwo_Value = twentyTwo.getText().toString().trim();
-                String twentythree_Value = twentyThree.getText().toString().trim();
-                String twentyfour_Value = twentyFour.getText().toString().trim();
-                String twentyfive_Value = twentyFive.getText().toString().trim();
-                String twentysix_Value = twentySix.getText().toString().trim();
-                //----------------------------------------------------------
-                String twentyseven_Value = twentySeven.getText().toString().trim();
-                String twentyeight_Value = twentyEight.getText().toString().trim();
-                String twentynine_Value = twentyNine.getText().toString().trim();
-                String thirty_Value = thirty.getText().toString().trim();
-                String thirtyone_Value = thirtyOne.getText().toString().trim();
-                String thirtytwo_Value = thirtyTwo.getText().toString().trim();
-                String thirtythree_Value = thirtyThree.getText().toString().trim();
-                String thirtyfour_Value = thirtyFour.getText().toString().trim();
-                String thirtyfive_Value = thirtyFive.getText().toString().trim();
-
-
-
 
 
               if(nisab_Value.isEmpty()){
@@ -203,28 +167,10 @@ public class MainActivity extends AppCompatActivity {
                   double Seventeen = Double.parseDouble(seventeen_Value);
                   double Eighteen = Double.parseDouble(eighteen_Value);
                   double Nineteen = Double.parseDouble(ninteen_Value);
-                  double Twenty = Double.parseDouble(twenty_Value);
-                  double Twentyone = Double.parseDouble(twentyone_Value);
-                  double Twentytwo = Double.parseDouble(twentytwo_Value);
-                  double Twentythree = Double.parseDouble(twentythree_Value);
-                  double Twentyfour = Double.parseDouble(twentyfour_Value);
-                  double Twentyfive = Double.parseDouble(twentyfive_Value);
-                  double Twentysix = Double.parseDouble(twentysix_Value);
-                  //-----------------------------------------------------
-                  double Twentyseven = Double.parseDouble(twentyseven_Value);
-                  double Twentyeight = Double.parseDouble(twentyeight_Value);
-                  double Twentynine = Double.parseDouble(twentynine_Value);
-                  double Thirty = Double.parseDouble(thirty_Value);
-                  double Thirtyone = Double.parseDouble(thirtyone_Value);
-                  double Thirtytwo = Double.parseDouble(thirtytwo_Value);
-                  double Thirtythree = Double.parseDouble(thirtythree_Value);
-                  double Thirtyfour = Double.parseDouble(thirtyfour_Value);
-                  double Thirtyfive = Double.parseDouble(thirtyfive_Value);
 
-                  double totalSum = One+Two+Three+Four+Five+Six+Seven+Eight+Nine+Ten+Eleven+Twelve+Thirteen+Fourteen+Fifteen+Sixteen+Seventeen
-                                    +Eighteen+Nineteen+Twenty+Twentyone+Twentytwo+Twentythree+Twentyfour+Twentyfive+Twentysix;
+                  double totalSum = One+Two+Three+Four+Five+Six+Seven+Eight+Nine+Ten+Eleven+Twelve+Thirteen+Fourteen;
 
-                  double totalMinus = Twentyseven+Twentyeight+Twentynine+Thirty+Thirtyone+Thirtytwo+Thirtythree+Thirtyfour+Thirtyfive;
+                  double totalMinus = Fifteen+Sixteen+Seventeen+Eighteen+Nineteen;
 
                   double totalSompod = totalSum - totalMinus;
                   double Zakat = totalSompod * 0.025;
@@ -284,22 +230,6 @@ public class MainActivity extends AppCompatActivity {
                 seventeen.setText("");
                 eightteen.setText("");
                 nineteen.setText("");
-                twenty.setText("");
-                twentyOne.setText("");
-                twentyTwo.setText("");
-                twentyThree.setText("");
-                twentyFour.setText("");
-                twentyFive.setText("");
-                twentySix.setText("");
-                twentySeven.setText("");
-                twentyEight.setText("");
-                twentyNine.setText("");
-                thirty.setText("");
-                thirtyOne.setText("");
-                thirtyTwo.setText("");
-                thirtyThree.setText("");
-                thirtyFour.setText("");
-                thirtyFive.setText("");
 
 
             }
